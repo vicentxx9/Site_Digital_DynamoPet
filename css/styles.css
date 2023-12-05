@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 50px;
+    background-color: white;
+}
+
+main{
+    width: 100%;
+    background-color: #EBEBEB;
+}
+
+
+
+
+.buttons {
+    display: flex;
+}
+
+.botao-2{
+    background-color:transparent;
+    color: #5D2AB0;
+    font-family: Inter;
+    font-size: 20px;
+    appearance: none;
+    border: none;
+    margin: 0 70px 0 0;
+    border: 1px solid transparent;
+}
+
+.botao-2:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #C64BF2;
+    border-radius: 16px;
+}
+
+.botao-1{
+    background-color: #613387;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    border: 1px solid transparent;
+}
+
+.botao-1:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #613387;
+    border: 1px solid #613387;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.adocao_responsavel{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 50px;
+}
+
+.adocao_responsavel .botao-1{
+    border-radius: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.adocao_responsavel img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.novos_peludos{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:100%;
+    padding: 15px 50px;
+}
+
+.novos_peludos .titulo{
+    width: 100%;
+}
+
+.novos_peludos .titulo h1{
+    font-family: Inter;
+    font-size: 32px;
+}
+
+.txt-1{
+    color:#5D2AB0;
+}
+.txt-2{
+    color: #6A6868;
+}
+
+.novos_peludos .peludos{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 15px 50px 50px 50px;
+}
+
+.novos_peludos .peludos .peludo{
+    cursor: pointer;
+    width: 15%;
+}
+
+.novos_peludos .peludos .peludo .image{
+    height: fit-content;
+    display: flex;
+}
+
+.novos_peludos .peludos .peludo .image img{
+    width: 100%;
+}
+
+.novos_peludos .peludos .peludo .informacoes{
+    background-color: white;
+    padding: 15px 20px 20px 20px;
+    border-radius:0 0 6px 6px;
+}
+
+.novos_peludos .peludos .peludo .informacoes .nome_pet{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Inter;
+    margin: 0 0 15px 0;
+}
+.novos_peludos .peludos .peludo .informacoes .local_pet{
+    font-size: 10px;
+    font-weight: 200;
+    font-family: Inter;
+    margin: 0;
+}
+
+
+/* novos peludos 2*/
+
+.novos_peludos2{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:100%;
+    padding: 15px 50px;
+}
+
+.novos_peludos2 .titulo{
+    width: 100%;
+}
+
+.novos_peludos2 .titulo h1{
+    font-family: Inter;
+    font-size: 32px;
+}
+
+.txt-1{
+    color:#5D2AB0;
+}
+.txt-2{
+    color: #6A6868;
+}
+
+.novos_peludos2 .peludos{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 15px 50px 50px 50px;
+    margin-top: -70px;
+}
+
+.novos_peludos2 .peludos .peludo{
+    cursor: pointer;
+    width: 15%;
+}
+
+.novos_peludos2 .peludos .peludo .image{
+    height: fit-content;
+    display: flex;
+}
+
+.novos_peludos2 .peludos .peludo .image img{
+    width: 100%;
+}
+
+.novos_peludos2 .peludos .peludo .informacoes{
+    background-color: white;
+    padding: 15px 20px 20px 20px;
+    border-radius:0 0 6px 6px;
+}
+
+.novos_peludos2 .peludos .peludo .informacoes .nome_pet{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Inter;
+    margin: 0 0 15px 0;
+}
+.novos_peludos2 .peludos .peludo .informacoes .local_pet{
+    font-size: 10px;
+    font-weight: 200;
+    font-family: Inter;
+    margin: 0;
+}
+
+
+
+
+.primeiro{
+    margin-top: 280px;
+    margin-left: 25px;
+    color: #613387;
+    font-family: inter;
+    font-weight: 600;
+    
+}
+.primeiro_parceiro{
+    margin-top: 200px;
+    margin-left: 25px;
+    color: #613387;
+    font-family: inter;
+    font-weight: 600;
+    
+}
+
+.principal_parceiro{
+   
+    margin-left: 25px;
+    font-family: inter;
+    font-size: 20px;
+    line-height:2.3rem;
+    float: left;
+    padding: 5px;
+    
+}
+
+
+.principal{
+    margin-top: 15px;
+    margin-left: 25px;
+    font-family: inter;
+    font-size: 20px;
+    line-height:2.3rem;
+    float: left;
+    margin-bottom: 180px;
+    
+}
+
+.segundo{
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    font-family: inter;
+    font-size: 22px;
+    font-weight: 400;
+    color: #5D2AB0;
+    padding: 5px;
+}
+
+.segundo_parceiro{
+    margin-top: 10px;
+    margin-bottom: 210px;
+    font-family: inter;
+    font-size: 22px;
+    font-weight: 400;
+    color: #5D2AB0;
+    padding: 5px;
+}
+
+
+
+.imagem_selo{
+    /*border: 1px solid red;*/
+    float: right;
+    margin-right: 2px;
+    margin-top: 60px;
+}
+
+.imagem{
+    float: right;
+    margin-right: 2px;
+    margin-top: 0px;
+}
+
+.imagem_google {
+   /* border: 1px solid red;*/
+    float: left;
+    margin-right: -200px;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+
+.imagem_prefeitura {
+   /* border: 1px solid red;*/
+    float: left;
+    margin-left: 180px;
+    margin-right: -200px;
+    margin-top: 45px;
+}
+  
+.container {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: -300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1020px;
+    height: 320px;
+    padding: 100px;
+    margin-bottom: 80px;
+    clear: both;
+    margin-top: 20px;
+
+}
+
+.container_parceiro {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: -300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1020px;
+    height: 560px;
+    padding: 100px;
+    margin-bottom: 40px;
+    clear: both;
+    margin-top: 140px;
+
+}
+
+footer{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5D2AB0;
+    height:77px;
+    width: 100%;
+    
+}
+footer p{
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+}
